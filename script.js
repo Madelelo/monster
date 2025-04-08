@@ -19,6 +19,7 @@ function makeHtmlList(monster) {
     monsterDescription +
     "</div>";
 
+  // Add every monster to HTML
   let monsterList = document.getElementById("monster-list");
   monsterList.innerHTML += monsterCard;
 }
